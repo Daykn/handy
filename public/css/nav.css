@@ -1,0 +1,22 @@
+.navbar{
+    border-radius: 0px;
+    
+}
+#li{
+    color:white;
+    font-size: 18px;
+}
+#li:hover{
+    background:white;
+    color: #00a1ba;
+}
+.icon-bar{
+    background: white;
+}
+#drop{
+    color: #00a1ba;
+    background: #eee;
+}
+#drop:hover{
+    background: white;
+}
