@@ -1,0 +1,8 @@
+// !!!! GET REQUESTS !!!! //
+/ --> welcome
+/news --> news
+/education --> education
+/projects --> projects
+/reports --> reports
+/trainings --> trainings
+/volunteer --> volunteer
