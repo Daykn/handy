@@ -6,7 +6,12 @@ body{
 .Mtext{
     text-align: center;
     margin-top:20px;
-    margin-top:20px;
+    margin-bottom:40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Mtext2{
+    text-align: center;
+    margin-top:60px;
     margin-bottom:40px;
     font-family: Arial, Helvetica, sans-serif;
 }
