@@ -5,6 +5,8 @@
 #li{
     color:white;
     font-size: 18px;
+    background:#4a76a8;
+    transition: background 0.5s;
 }
 #li:hover{
     background:white;
