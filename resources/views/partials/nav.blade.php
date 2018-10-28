@@ -26,7 +26,7 @@
           </ul>
         </li>
         <li class="col-md-offset-1"><a href="/reports" id="li">Отчеты</a></li>
-        <li class="col-md-offset-1"><a href="" id="li">Контакты</a></li>
+        <li class="col-md-offset-1"><a href="#footer" id="li">Контакты</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li ><a href="#" style="color:white;"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>

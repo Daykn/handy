@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{asset('/css/footer.css')}}">
 
-<footer class="footer col-md-12 col-xs-12" style=" background:#4a76a8;">
+<footer class="footer col-md-12 col-xs-12" id="footer" style=" background:#4a76a8;">
 <div class="container-fluid">
     
   <div class="contact col-md-6" style="text-align:start;">
