@@ -1,18 +1,18 @@
 <link rel="stylesheet" href="{{asset('/css/footer.css')}}">
 
-<footer class="footer col-md-12" style=" background:#4a76a8;">
+<footer class="footer col-md-12 " style=" background:#4a76a8;">
 <div class="container-fluid">
     
   <div class="contact col-md-6" style="text-align:start;">
-    <h2>Контакты</h2>   
+    <h2 style="color:white;">Контакты</h2>   
     
-  <h4> Телефон</h4>
+  <h4 style="color:white;"> Телефон</h4>
       <p style="color:white;">- 8 777 77 77</p>
       <p style="color:white;">- 8 444 44 44</p>
   </div>
 
 <form action="/action_page.php " class="col-md-4 col-md-offset-2">
-<label><h2 >Обратная Связь</h2></label>
+<label><h2 style="color:white;">Обратная Связь</h2></label>
     <label for="fname">Имя</label>
     <input type="text" id="fname" name="firstname" placeholder="Ваше имя">
 

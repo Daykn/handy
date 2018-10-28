@@ -17,7 +17,7 @@
         <li class="dropdown col-md-offset-1">
           <a class="dropdown-toggle" id="li" data-toggle="dropdown" href="#" >Новости<span class="caret"></span></a>
           <ul class="dropdown-menu" style="background:#eee;">
-            <li><a href="{{ asset('\resources\views\news.blade.php') }}" id="drop">Основные</a></li>
+            <li><a href="/news" id="drop">Основные</a></li>
             <li><a href="#" id="drop">Проекты</a></li>
             <li><a href="#" id="drop">Тренинги и семинары</a></li>
             <li><a href="#" id="drop">Волонтерская деятельность</a></li>
