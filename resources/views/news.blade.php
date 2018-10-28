@@ -1,20 +1,35 @@
-<link rel="stylesheet" href="{{asset('/css/news.css')}}">
 
 @extends('layouts.master')
+@push('styles')
+<link rel="stylesheet" href="{{asset('/css/news.css')}}">
+@endpush
+@push('scripts')
 @section('title')
-contact
+news
 @stop
 @section('description')
-this is description of contact
+this is description of news
 @stop
 @section('content')
    <!-- Blog Post -->
-   <div class="card mb-4">
-            <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
-            <div class="card-body">
-              <h2 class="card-title">Post Title</h2>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-              <a href="#" class="btn btn-primary">Read More &rarr;</a>
-            </div>
+   <div class="card mb-4 col-md-6 col-md-offset-3">
+      <div class="img col-md-12 ">
+        <img class="card-img-top" src="{{ asset('images/2.jpg') }}" alt="Card image cap">
+      </div>
+      <div class="card-body col-md-12 ">
+        <h2 class="card-title">Post Title</h2>
+        <p class="card-text">Ежегодно Общественный молодежный фонд «Reliance» проводит благотворительные акции по поддержке людей с ограниченными возможностями.</p>
+        <p>Одной из  таких акций является благотворительный концерт: «От сердца к сердцу», который состоится  4 декабря 2017 года в 19.00 в Казахской государственной Филармонии имени Жамбыла с целью показать, что люди с ограниченными возможностями могут полноценно участвовать в жизни общества и нуждаются в поддержке их потенциала.</p>
+        <p>В рамках мероприятия будут награждены лучшие волонтеры, среди которых будут отмечены волонтеры - звезды казахстанской эстрады.</p>
+        <p>Нас поддержали звезды Казахстанской эстрады: Рамазан Стамғазиев, Ұлту Қабаева, Али Окапов, Ерке Есмахан, Кентал, Аша Матай, Бейбіт Көшқалиев, Дильназ Ахмадиева, Серікбол Сайлаубек, Мөлдір Мұхтарқызы, Ayree, Zivara, Парвиз Назаров, группа «Mezzo», группа «Melomen», группа «Renzo», группа «TurKiss». Также на концерте примут участие певцы и танцоры с ограниченными возможностями.</p>
+        <p>Дата и место проведения:
+4 декабря 19:00 часов. Казахская государственная филармония им. Жамбыла по адресу:  ул. Калдаякова 35, уг. ул. Толе би.
+Контактные лица:
+Сауле Мураткызы         тел: 8(707)679-89-12
+Жазира Мулкибекова тел: 8(701)811-48-59
+
+</p>
+       <!-- <a href="#" class="btn">Read More</a>-->
+      </div>
    </div>
 @stop
