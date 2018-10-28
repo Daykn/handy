@@ -21,10 +21,10 @@ this is description
                     <p>При фонде более 4 лет существует волонтерское движение «От сердца к сердцу», в рядах, которого задействованы более 250 человек разных возрастных категорий.  Фонд реализовал более 20 проектов при участии государственных, международных, бизнес - организаций  по профилактике здорового образа жизни, патриотического, экологического, культурного, правового воспитания, социализации и т.д. </p>
                 </div>
                 <div class="pl pl2 col-md-5 col-xs-12">
-                    <img style="width:100%;" src="{{ asset('images/2.jpg') }}">
+                    <img style="max-width:100%;max-height:100%;margin:auto;" src="{{ asset('images/2.jpg') }}">
                 </div>
                 <div class="pl pl3 col-md-5 col-md-offset-1 col-xs-12">
-                    <img style="width:100%;max-height:100%;margin:auto;" src="{{ asset('images/1.jpg') }}">
+                    <img style="max-width:100%;max-height:100%;margin:auto;" src="{{ asset('images/1.jpg') }}">
                 </div>
                 <div class="pl pl4 col-md-5  col-xs-12">
                     <p>Благодаря активной работе лидеров центра были налажены связи с международными волонтерскими движениями. На сегодняшний день Фонд сотрудничает с международной организацией ГРИНПИС с Южной Кореей, Фондом поддержки детей «Адвит», Сеульским государственным Университетом, 5 волонтеров прошли волонтерскую практику в рамках международного обмена опытом.</p>
@@ -38,23 +38,23 @@ this is description
              <section class="testimonials text-center col-md-12">
       <div class="container-fluid ">
         <h2 class="mb-5" style="color: #007bff;">Основные лица</h2>
-        <div class="col-md-12 col-xs-12" style="margin-right: 0px;">
+        <div class="col-md-12 col-xs-12" >
           
-            <div class="card col-md-3 col-md-offset-1 col-xs-12">
+            <div class="card col-md-2 col-md-offset-1 col-xs-12">
               <img src="{{ asset('images/testimonials-1.jpg') }}" alt="asdf" style="width:100%;margin-bottom: 5px;">
               <h3>Имя Фамилия</h3>
               <p class="title" style="color: #007bff;">Founder </p>
               
             </div>
 
-            <div class="card  col-md-3 col-md-offset-1 col-xs-12">
+            <div class="card  col-md-2 col-md-offset-2 col-xs-12">
               <img src="{{ asset('images/testimonials-1.jpg') }}" alt="asdf" style="width:100%;margin-bottom: 5px;">
               <h3>Имя Фамилия</h3>
               <p class="title" style="color: #007bff;">Social Media Manager</p>
               
             </div>
 
-            <div class="card  col-md-3 col-md-offset-1 col-xs-12">
+            <div class="card  col-md-2 col-md-offset-2 col-xs-12">
               <img src="{{ asset('images/testimonials-1.jpg') }}" alt="asdf" style="width:100%;margin-bottom: 5px;">
               <h3>Имя Фамилия</h3>
               <p class="title" style="color: #007bff;">Research manager</p>
