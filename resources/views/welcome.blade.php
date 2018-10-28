@@ -10,12 +10,13 @@ index page
 this is description
 @stop
 @section('content')
-    <div class="content col-md-12 col-xs-12">
+    <div class="content col-md-12 ">
+        <div class="container-fluid">
             <div class="Mtext col-md-8 col-md-offset-2 col-xs-12">
                 <h3 style="color:#00a1ba;">Общественный Фонд «Reliance» существует с 9 октября 2009 года. Фонд занимается поддержкой молодежных инициатив и реализацией проектов, формирующих активную гражданскую позицию, социальную ответственность, привитие лидерских качеств и интеллектуальное образование молодежи. </h3>
             </div>
 
-            <div class="plitka col-md-10 col-md-offset-2 col-xs-12 " style="margin-bottom:50px;">
+            <div class="plitka col-md-10 col-md-offset-1 col-xs-12 " style="margin-bottom:50px;">
                 <div class="pl pl1 col-md-5 col-md-offset-1 col-xs-12">
                     <p>При фонде более 4 лет существует волонтерское движение «От сердца к сердцу», в рядах, которого задействованы более 250 человек разных возрастных категорий.  Фонд реализовал более 20 проектов при участии государственных, международных, бизнес - организаций  по профилактике здорового образа жизни, патриотического, экологического, культурного, правового воспитания, социализации и т.д. </p>
                 </div>
@@ -65,5 +66,6 @@ this is description
     </section>
 
 
+        </div>
     </div>
 @stop
