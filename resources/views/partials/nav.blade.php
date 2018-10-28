@@ -25,7 +25,7 @@
             <li><a href="#" id="drop">Конкурсы</a></li>
           </ul>
         </li>
-        <li class="col-md-offset-1"><a href="#" id="li">Отчеты</a></li>
+        <li class="col-md-offset-1"><a href="/reports" id="li">Отчеты</a></li>
         <li class="col-md-offset-1"><a href="" id="li">Контакты</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">

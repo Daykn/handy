@@ -8,26 +8,31 @@ body{
     margin-top:20px;
     margin-bottom:40px;
     font-family: Arial, Helvetica, sans-serif;
+    padding:0;
 }
 .Mtext2{
     text-align: center;
     margin-top:60px;
     margin-bottom:40px;
     font-family: Arial, Helvetica, sans-serif;
+    padding:0;
 }
 .content{
     margin-bottom: 20px;
+    padding: 0;
 }
 .pl1,.pl4{
     text-align: center;
 background: #00a1ba;
 height: 350px;
 color: white;
+margin: 0;
 }
 .pl2,.pl3{
     height: 350px;
     background: white;
     padding: 0;
+    margin: 0;
     }
     .pl{
         text-align: center;
@@ -39,6 +44,7 @@ color: white;
     }
 
     .testimonials {
+        padding: 0;
         padding-top: 2rem;
         padding-bottom: 4rem;
         background: #f1f1f1;
@@ -46,17 +52,12 @@ color: white;
         }
       
       .testimonials .testimonial-item {
-        max-width: 18rem;
       }
       
       .testimonials .testimonial-item img {
-        max-width: 12rem;
         box-shadow: 0px 5px 5px 0px #adb5bd;
       }
       
-    .cards{
-    }
-
     .card{
         background:white;
         color: black;
@@ -64,7 +65,7 @@ color: white;
             margin-top: 15px;
             text-align: center;
             font-family: arial;
-            height: 370px;
+            height: 400px;
             padding: 0;
           }
           
